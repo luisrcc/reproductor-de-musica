@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container{
+    width: 350px;
+    height: 600px;
+    background-color: aliceblue;
+    background-size: cover;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+
+  .mymusic{
+    width: 300px;
+    height: 20%;
+    border: 1px solid rgba(240, 240, 240, 0.212);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+    border-radius: 5px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.568);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Gill Sans';
+    
+    
+  }
+  .icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .fas{
+    font-size: 40px;
+    color:rgba(255, 255, 255, 0.568);
+    cursor: pointer;
+    
+  }
+  .fas:hover{
+    color: rgb(102, 94, 94);
+  }
+  .cont-canciones{
+    width: 300px;
+     border-left: 1px solid rgba(240, 240, 240, 0.212);
+    border-bottom: 1px solid rgba(240, 240, 240, 0.212);
+    border-right: 1px solid rgba(240, 240, 240, 0.212); 
+    height: 80%;
+    margin-bottom: 40px;
+     border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: scroll;
+    
+  }
+  .song{
+    width: 100%;
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.623) ;
+    background-color: rgba(156, 195, 212, 0.13);
+    padding: 5px 0px 5px 10px;
+    display: inline-block;
+    border: 1px solid rgba(240, 240, 240, 0.212);
+    border-radius: 5px;
+    margin-top: 5px;
+    min-height: 40px;
+    font-family: 'Gill Sans';
+    cursor: pointer;
+    
+  }
+  .song:hover{
+    background-color: rgba(221, 217, 201, 0.411);
+  }
+  .fa-play-circle{
+    padding-right: 15px;
+    font-size: 25px;
+  }
+  .inPlay{
+    width: 100%;
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.623) ;
+    background-color: rgba(19, 173, 240, 0.301);
+    padding: 5px 0px 5px 10px;
+    display: inline-block;
+    border: 1px solid rgba(240, 240, 240, 0.212);
+    border-radius: 5px;
+    margin-top: 5px;
+    min-height: 40px;
+    font-family: 'Gill Sans';
+    cursor: pointer;
+  }
+/*   
+  ::-webkit-scrollbar {
+      width: 12px;
+  }
+   
+  ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+      border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+  } */
